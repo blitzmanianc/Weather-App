@@ -1,7 +1,7 @@
-import requests
+import requests #You have to install it using pip
 
 def fetch_weather(city):
-    api_key = '17c83c177fd75eaaeb61b6e86b5d7241'
+    api_key = 'This is where you put your api key'
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
     response = requests.get(url)
     data = response.json()
@@ -16,7 +16,7 @@ def display_weather(data):
         print(f"Temperature: {temperature}°C")
         print(f"Humidity: {humidity}%")
     else:
-        print("City not found. Please enter a valid city name.")
+        print("City not found. Please enter a valid city name.") #If your output keeps being "City not found. Please enter a valid city name." then most likely you have a problem with your API key.
 
 city = input("Enter city name: ")
 weather_data = fetch_weather(city)
