@@ -9,8 +9,8 @@ Features:
 - Provides information on weather condition and humidity.
 Usage:
 
-Clone the repository to your local machine.
-Obtain an API key from OpenWeatherMap (instructions provided in the README).
-Insert your API key into the code.
-Run the main.py script.
-Enter the name of the city for which you want to fetch weather data.
+1. Clone the repository to your local machine.
+2. Obtain an API key from OpenWeatherMap (instructions provided in the README).
+3. Insert your API key into the code.
+4. Run the main.py script.
+5. Enter the name of the city for which you want to fetch weather data.
